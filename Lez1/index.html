@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabili</title>
+</head>
+<body>
+    <h1>Variabili</h1>
+
+    <script>
+        //Dichiaro una variabile. uso la parola chiave let e le assegno un nome
+    let     nome;
+        //assegno un valore alla variabile nome
+
+    nome='Giovanni';
+    console.log(nome); //stampo il contenuto della variabile
+    
+    //dichiaro e assegno nello stesso momento
+    //ricorda le variabile vanno dichiarate in camelCase
+
+    let cognome="Carotenuto";
+    console.log(nome+ ' '+cognome);//si aggiunge + ' '+ per ottenere uno spazio oppure si mette una ,(virgola)
+    console.log(nome, cognome); //cosi esempio con la virgola
+    
+    //javascript è un linguaggio debolmente tipizzato, cioe conosce benissimo i tipi di dato ma non siamo obbligati a dichiararli.
+    let nomeStudente='Andrea'; //stirnga
+    let cognomeStudente='Lavia'; //stringa
+    let etaStudente= 26; //number
+    let nomeCorso='Jaita116'; //stringa
+    let presenza= true; //boolean (true o false)
+
+    console.log('Ciao, mi chiamo ' + nomeStudente+ ' '+ cognomeStudente + " ho " + etaStudente + 'anni. Partecipero a '+nomeCorso+' e oggi sono '+presenza);
+    
+    nomeStudente ='Francesco';
+
+    let presentazione = 'Ciao, mi chiamo ' + nomeStudente+ ' '+ cognomeStudente + " ho " + etaStudente + 'anni. Partecipero a '+nomeCorso+' e oggi sono '+presenza;
+    
+    console.log(presentazione);
+
+    // let variabile di base piu moderno e impedisce di dichiarare due variabili con lo stesso nome;
+    //var variabile di base comodità nessuna differenza tranne che si puo richiamare le variabili con lo stesso nome mentre con let NO;
+    //Const dichiara una variabile che contiene un valore immutato nel tempo (es. indirizzo o database o valore numerico sempre uguale). In genere scritte in all-caps, ma non è necessario.
+
+    const PI = 3.14;
+    
+    console.log(typeof PI);
+    console.log(typeof presenza);
+    console.log(typeof nomeStudente);
+
+
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
