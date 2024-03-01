@@ -1,16 +1,17 @@
-/* Esercizio 10 – Crea una funzione in javascript per generare una stringa di caratteri casuali specificandone la  lunghezza. Utilizza l’intero alfabeto e i numeri (form input)  */
+//Esercizio 10 – Crea una funzione in javascript per generare una stringa di caratteri casuali specificandone la  lunghezza. Utilizza l’intero alfabeto e i numeri (form input)  
 
+let lunghezza = 16;
 let alfabetoNumeri = 'abcdefghijklmnopqrstuvwxyz0123456789';
-let casuali='';
-let lunghezza= 12;
+let casuali = '';
+let password= document.getElementById('password');
+
+for (let i = 0; i < lunghezza; i++) {
+
+    let aCaso = Math.floor(Math.random() * alfabetoNumeri.length);
+    casuali += alfabetoNumeri.charAt(aCaso);
 
 
-for (let i = 0; i < lunghezza.length; i++) {
-    
-    let aCaso = Math.floor(Math.random()*alfabetoNumeri);
-    casuali+= alfabetoNumeri.charAt(aCaso);
-
-    return casuali;            
 }
 
-console.log(casuali);
+console.log('ecco a te la tua password crittografata: '+casuali);
+password.innerHTML=('ecco la tua password random: '+ casuali);
