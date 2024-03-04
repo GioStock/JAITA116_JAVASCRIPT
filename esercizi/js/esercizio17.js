@@ -10,6 +10,7 @@ let tempo = oraAttuale + ':' + minuti.toPrecision() + ':' + secondi;
 
 console.log(tempo);
 //let cheOra = prompt('inserisci l\'ora: ');
+
 let tempo1 = document.getElementById('tempo');
 
 
@@ -20,7 +21,7 @@ if (oraAttuale >= 12 && oraAttuale < 18) {
     tempo1.innerHTML = '<p>' + tempo + '</p>';
 } else if (oraAttuale >= 18 && oraAttuale < 22) {
     tempo1.innerHTML = '<p> Buonasera sono le ore: ' + tempo + '</p>';
-} else if (oraAttuale > 22 && oraAttuale <= 2) {
+} else if (oraAttuale > 0 && oraAttuale <= 2) {
     tempo1.innerHTML = '<p>Buonanotte sono le ore: ' + tempo + '</p>';
 } else {
     tempo1.innerHTML = '<p> Buongiorno sono le ore: ' + tempo + '</p>';
