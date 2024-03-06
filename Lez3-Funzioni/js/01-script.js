@@ -15,30 +15,41 @@ saluta();
 // console.log(nome);
 // console.log(cognome);
 //questo nome e cognome sono variabili globali, ovvero visibili ovunque
-let nome="Pippo";
-let cognome="Rossi";
+//let nome = "Pippo";
+let cognome = "Rossi";
 //ATT: a parità di nome ha la precedenza la variabile locale
 
 function salutaLaltro() {
-    let cognome= "Verdi";
+    let cognome = "Verdi";
     //in questo caso nome è globale, cognome è variabile
-    console.log(nome+" "+cognome);
+    console.log(nome + " " + cognome);
 }
 salutaLaltro();
 
 /* -------------------------------------------------------------------------- */
 /*                               Esempio veloce                               */
 /* -------------------------------------------------------------------------- */
-let demo=document.getElementById("demo");
+let demo = document.getElementById("demo");
 
 function salutaUser() {
-    let username= window.prompt("Ciao Utente come ti chiami? ");
-    demo.innerHTML='<h1> Ciao: '+ username+'</h1>';
+    let username = window.prompt("Ciao Utente come ti chiami? ");
+    demo.innerHTML = '<h1> Ciao: ' + username + '</h1>';
 }
 salutaUser()
+console.log(etaUser);
 
-function salutaAntonio(){
-    let saluta="saluta antonio"
-    console.log(saluta);
+
+for(let i=0; i<3;i++){
+    console.log("ciao"+i);
+    //uso let in un costrutto allora sto creando una variabile locale(presente solo in una funzione)
+    let nomePersona="Anna";
+    console.log(nomePersona);
+    let etaUser=21;
+
+    //uso var in un costrutto creo una variabile globale
+    var cognomePersona="Bianchi";
+    console.log(cognomePersona);
 }
-salutaAntonio()
+console.log(cognomePersona);//questa visibile dichiarata con var del for
+console.log(nome);//questa non è visibile poiche dichiarata con let nel for
+console.log(i);
