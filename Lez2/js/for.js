@@ -18,7 +18,17 @@ let colori=['verde', 'blu', 'viola', 'fuxia'];
 
 for (let i = 0; i < 5; i++) {
     console.log(colori[i]);// stampa in console l'elemento dell'array con indice i;
+}
+console.log(colori[colori.length-1]);
+
+for (let i = 1; i <= 100; i++) {
+    if (i%3==0) {
+        console.log('multiplo di 3: '+i);
+    }else{
+        console.log('bella: '+i);
+    }
     
+
 }
 
 //tutti gli altri tipi di for

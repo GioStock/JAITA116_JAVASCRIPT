@@ -26,7 +26,7 @@ if (punteggio >= 18) {
 
 //operatore ternario puo sostituire l'if
 //                 viene eseguito quando è true                questo invece quando è false
-(punteggio >= 18)? console.log('bravo hai superato l\'esame'): console.log('mi spiace non hai superato l\'esame');
+(punteggio >= 18) ? console.log('bravo hai superato l\'esame') : console.log('mi spiace non hai superato l\'esame');
 
 
 

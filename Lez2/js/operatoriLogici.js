@@ -32,7 +32,7 @@ let oraAttuale = 21;
 
 if (oraAttuale <= 12) {
     console.log('buongiorno sono le ore: ' + oraAttuale);
-} else if (oraAttuale > 12 && oraAttuale <= 18) {
+} else if (oraAttuale > 12 && oraAttuale <= 18) {   
     console.log('buon Pomeriggio, sono le ore: ' + oraAttuale);
 } else if (oraAttuale > 18 && oraAttuale <= 21) {
     console.log('Buonasera sono le ore: ' + oraAttuale);
