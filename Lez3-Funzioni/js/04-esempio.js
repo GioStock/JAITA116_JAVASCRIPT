@@ -7,7 +7,7 @@ function calcolaPari(numero) {
         return null;
     }
 }
-console.log(calcolaPari());
+
 //la funzione eseguiCalcolo verrà richiamata dal pulsante
 
 let listaPari = [];

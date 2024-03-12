@@ -20,6 +20,7 @@ let cognome = "Rossi";
 //ATT: a parità di nome ha la precedenza la variabile locale
 
 function salutaLaltro() {
+    var nome="Pippo";
     let cognome = "Verdi";
     //in questo caso nome è globale, cognome è variabile
     console.log(nome + " " + cognome);
@@ -36,8 +37,9 @@ function salutaUser() {
     demo.innerHTML = '<h1> Ciao: ' + username + '</h1>';
 }
 salutaUser()
-console.log(etaUser);
 
+
+function eta(){
 
 for(let i=0; i<3;i++){
     console.log("ciao"+i);
@@ -45,7 +47,7 @@ for(let i=0; i<3;i++){
     let nomePersona="Anna";
     console.log(nomePersona);
     let etaUser=21;
-
+    console.log("Età: "+etaUser);
     //uso var in un costrutto creo una variabile globale
     var cognomePersona="Bianchi";
     console.log(cognomePersona);
@@ -53,3 +55,5 @@ for(let i=0; i<3;i++){
 console.log(cognomePersona);//questa visibile dichiarata con var del for
 console.log(nome);//questa non è visibile poiche dichiarata con let nel for
 console.log(i);
+}
+eta();
