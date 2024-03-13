@@ -18,16 +18,25 @@ function inviaTweet() {
   if (area.trim() == "") {
     demo.innerHTML = "non hai compilato il campo!";
     demo.style = "color:red;";
-    areaTesto.value = "";
   } else {
     demo.innerHTML = "il tuo Tweet: " + area;
   }
+  areaTesto.value = "";
 }
 btnTweeet.addEventListener("click", inviaTweet);
 
 function cambiaColor() {
-  inviaTweet();
-  demo.style = "color: orange;";
+  /* 
+    has attribute controlla se l'elemento ha quell'attributo
+    set attribute assegna un attributo e il suo valore 
+    remove attribute elimina quell'attributo
+  */
+  
+  if (demo.hasAttribute('style')) {
+    demo.removeAttribute('style');
+  }else{
+  demo.setAttribute('style','color: orange;');
+}
 }
 
 btnColore.addEventListener("click", cambiaColor);

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(7, 35, 87);
+}
+.container{
+    text-align: center;
+    
+    
+
+}
+h1{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#area{
+    background-color: rgb(209, 120, 120);
+    text-decoration: wheat;
+}
+.box{
+    background-color: aliceblue;
+    margin-left:auto;
+    margin-right: auto;
+}
+#demo{
+   
+    padding: 3rem;
+}
