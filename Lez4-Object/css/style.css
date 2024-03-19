@@ -1,0 +1,27 @@
+/* Selettore per tag */
+body{
+    background-color: #191414;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+/* Selettore per ID  */
+#playlist{
+    
+}
+/* Selettore per Classi */
+.box-canzone{
+    display:inline-block;
+    border: 3px solid #1db954;
+    border-radius: 1rem;
+    border-style:dashed;
+    padding: 1rem;
+    margin: 0 0.5rem 0.5rem 0;
+    
+}
+/* Genitore--figlio */
+.box-canzone p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}

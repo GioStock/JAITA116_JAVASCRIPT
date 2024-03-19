@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(15, 12, 12, 0.942);
+    color: aliceblue;
+    text-align: center;
+    
+    
+    margin-top: auto;
+}
+h1{
+    margin-bottom: 10rem;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    
+    
+}
+#estrazione{
+    display: inline-block;
+    
+}
+#estrazione p{
+    
+    padding: 1rem;
+    max-width: 100%;
+    
+
+}
+#numeriVincenti{
+    
+    
+    padding: 1rem;
+    max-width: 100%;
+    
+    
+}
+.numeriVincenti{
+    display: inline-block;
+    
+}
+.numeriVincenti p{
+    color:aqua;
+    margin: auto;
+    
+    border: 0.5rem solid rgb(130, 192, 246);
+    border-radius:  100%;
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    margin-top: 0;
+    margin-right: 2rem;
+    
+}
+.numeriTuoi{
+    margin-top: 5%;
+    
+}
+
+
+#demo{
+    color: rgb(231, 215, 194);
+    background-color: rgb(2, 71, 71);
+}
+
+#demo p{
+    max-width: 100%;
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 50%;
+}
+#scegli{
+    max-width: 100%;
+    display: inline-block;
+}
