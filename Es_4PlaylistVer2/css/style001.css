@@ -97,6 +97,7 @@ a:hover{
     border: solid rgba(14, 14, 153, 0.176);
     border-radius: 10px;
     align-items: end;
+    
 
 
 }
@@ -115,5 +116,6 @@ a:hover{
     color: rgb(250, 42, 42);
     transition: 1s;
     font-size: 2rem;
+    
     
 }
