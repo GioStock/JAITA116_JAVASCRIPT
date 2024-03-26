@@ -1,0 +1,114 @@
+*{
+    background-color: #01263de2;
+    max-width: 100%;
+    color: aliceblue;
+}
+
+.bottoni{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    width: auto;
+    height: 10vh;
+    
+    
+
+}
+.bottoni #btnGenera{
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.bottoni #btnGenera:hover{
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: #01263de2;
+    
+}
+.bottoni #bottone{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    border-radius: 30px;
+}
+.bottoni #bottone:hover{
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: #01263de2;
+}
+
+.container{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.container .playlist .form-play{
+    width: 20%;
+    margin: auto;
+}
+.utente .form-utente{
+    width: 20%;
+    margin: auto;
+}
+
+input{
+    border-radius: 10px;
+    text-decoration: dotted;
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    background-color: aqua;
+    background: scroll;
+}
+a:hover{
+    transition: 1s;
+    background-color: rgba(0, 94, 255, 0.676);
+    color: aliceblue;
+}
+
+.ut {
+    text-align: center;
+    width: 33%;
+    padding-bottom: 20px;
+    margin: 20px 0 20px 0;
+    border: solid rgba(14, 14, 153, 0.176);
+    border-radius: 10px;
+    align-items: end;
+
+
+}
+#playlist p{
+    color: rgba(255, 0, 0, 0.599);
+    font-size: 1.5rem;
+    padding: 30px;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    
+    
+}
+#playlist p:hover{
+    font-size: large;
+    color: rgb(250, 42, 42);
+    transition: 1s;
+    font-size: 2rem;
+    
+}

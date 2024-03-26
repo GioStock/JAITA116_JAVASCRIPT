@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style001.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="utente">
+        <h2>Form Utente</h2>
+        <div class="form-utente">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" required />
+          <label for="cognome">Cognome:</label>
+          <input type="text" id="cognome" required />
+          <label for="generePreferito">Genere Musicale Preferito:</label>
+          <input type="text" id="generePreferito" required />
+        </div>
+      </div>
+      <div class="playlist">
+        <h2>Form Playlist</h2>
+
+        <div class="form-play">
+          <label for="titolo">Titolo Canzone:</label>
+          <input type="text" id="titolo" required />
+          <label for="album">Album:</label>
+          <input type="text" id="album" required />
+          <label for="artista">Artista:</label>
+          <input type="text" id="artista" required />
+          <label for="youtubeLink">Link Youtube (opzionale):</label>
+          <input type="text" id="link" />
+        </div>
+      </div>
+    </div>
+    <div class="bottoni">
+      <button type="button" id="btnGenera">Genera Playlist</button>
+      <button type="button" id="bottone">stampa tutto</button>
+    </div>
+    <div id="playlist"></div>
+
+    <script src="./js/001-esercizio.js"></script>
+  </body>
+</html>
