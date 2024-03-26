@@ -86,7 +86,7 @@ bottone.addEventListener("click",stampaUtenti);
 function stampaUtenti() {
     
     utenti.forEach(utente => {
-        playlist.innerHTML+="";
+        playlist.innerHTML=`<p></p>`;
         playlist.innerHTML += `<div class="ut"> Nome: ${utente.nome} Cognome: ${utente.cognome} genere preferito: ${utente.generePreferito} Canzone: ${utente.playlist.stampaCanzone()}</div>`;
         if (utente.nome==""||utente.cognome==""||utente.generePreferito=="") {
             playlist.innerHTML=`<p>Non hai inserito correttamente l'utente, riprova</p>`;
