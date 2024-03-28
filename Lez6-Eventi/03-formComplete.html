@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <form action="#" method="get" id="formRegistrazione" class="form">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" />
+      <div id="feedNome"></div>
+      <label for="cognome">Cognome:</label>
+      <input type="text" name="cognome" id="cognome" />
+      <div id="feedCognome"></div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+      <div id="feedEmail"></div>
+      <label for="abbonamento">abbonamento</label>
+      <select name="abbonamento" id="abbonamento">
+        <option value="-1" selected disabled>Seleziona un abbonamento</option>
+        <option value="premium" >Premium</option>
+        <option value="base">Base</option>
+        <option value="free">Free</option>
+      </select>
+      <div id="feedAbbonamento"></div>
+      <hr>
+      <input type="submit" id="Registrati" />
+    </form>
+    
+    <div id="feed"></div>
+    
+    <script src="./js/03-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.775);
+    
+    color: wheat;
+}
+
+.form{
+    display: flex;
+    max-width: 100%;
+    margin: 1;
+    column-gap:normal;
+    padding: 1rem;
+    color: aqua;
+    font-weight: 100;
+}
+.form label{
+    
+    
+    
+}
+h4{
+    
+    
+}
+#feed{
+    
+    color: rgb(216, 198, 234);
+    
+}

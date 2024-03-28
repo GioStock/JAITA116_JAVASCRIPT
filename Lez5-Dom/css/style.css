@@ -1,0 +1,20 @@
+body {
+  background-color: #323232;
+  color: antiquewhite;
+}
+
+.txt-blue {
+  color: rgb(123, 123, 248);
+}
+
+.txt-red {
+  color: red;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.resolution{
+    width: 300px;
+    height: auto;
+}

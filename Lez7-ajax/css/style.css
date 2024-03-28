@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 0, 0, 0.755);
+}
+
+
+li{
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 10px;
+    list-style-type: none;
+}
+img{
+    /* margin: auto; */
+    
+    width: 200px;
+}
