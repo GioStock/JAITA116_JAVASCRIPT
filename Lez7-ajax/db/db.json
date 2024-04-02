@@ -1,0 +1,20 @@
+{
+"utenti":[
+    {
+        "id":1,
+        "nome":"Milo",
+        "cognome":"SPandre",
+            "eta":32 
+
+        }
+    ],
+    "docenti":[
+        {
+            "id":1,
+            "nome":"Allen",
+            "cognome":"Ingaramo",
+            "materia": "java"
+        }
+    ]
+
+}
